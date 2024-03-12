@@ -1,0 +1,221 @@
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: #333333;
+}
+
+.btn-outline-success {
+    color: #9a1213;
+    border-color: #9a1213;
+    width: 120px;
+    margin-bottom: 5px;
+}
+
+.btn-outline-success:hover {
+    color: #fff;
+    background-color: #9a1213;
+    border-color: #9a1213;
+}
+
+header {
+    position: relative;
+    /* background-color: silver; */
+    background-color: #f2f1f1;
+    background-image: url(images/fondheader.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 500px;
+    border-bottom: solid 1px #9a1213;
+
+}
+
+.divheader {
+    position: absolute;
+    left: 40%;
+    top: 170px;
+    z-index: 1;
+}
+
+h1 {
+    color: #9a1213;
+
+}
+
+.navbar {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    background-color: #f2f1f1;
+    z-index: 2;
+   
+    
+}
+
+.divheader small {
+    display: block;
+    width: 80%;
+}
+
+.mr-3 {
+    width: 50px;
+    float: left;
+    margin-right: 20px;
+}
+
+.media {
+    margin-bottom: 20px;
+    box-shadow: 1px 1px 1px #333333;
+    padding: 10px;
+    border-radius: 10px;
+    /* transition-property: background-color,color,rotate; */
+    transition-property: background-color,color;
+    transition-duration: 2s;
+   
+}
+.media-body{
+    text-align: justify;
+
+}
+/* hover : permet de survolerr sur un element */
+.media:hover{
+    background-color:#333333;
+    color: #f2f1f1;
+    
+    cursor: pointer;
+
+}
+*{
+    font-size: 10pt;
+    font-family: serif;
+}
+@font-face{
+font-family: "mapolice";
+src: url(assets/fonts/GreatVibes-Regular.ttf);
+
+
+}
+h1,h2{
+    font-family: "mapolice";
+}
+.missionnaires{
+    max-width: 65%;
+    height: auto;
+}
+#mission{
+    border-left: 5px solid #9a1213;
+    padding: 20px;
+}
+#mission li{
+    list-style-image: url(images/puce.png);
+    margin-bottom: 5px;
+    margin-left: 20px;
+}
+.formateur{
+    text-align: center;
+    box-shadow: 1px 1px 3px #333333;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.formateur a{
+    margin: 5px;
+} 
+.graduate img{
+    border-radius: 50%;
+    border: solid 5px #9a1213;
+}
+.graduate{
+    text-align: center;
+    padding: 40px ;
+}
+.quote{
+    text-align: center;
+    padding: 25px;
+    border: double 15px #9a1213;
+    border-radius: 10px;
+
+}
+footer{
+    background-color: #f2f1f1;
+    margin-top: 50px;
+}
+.rs{
+    text-align: right;
+}
+.rs a{
+    margin: 10px;
+}
+.copy{
+    text-align: center;
+    color: #9a1213;
+    padding-top: 10px;
+}
+.desc{
+    text-align: center;
+    padding-top: 30px;
+
+}
+.service{
+    padding: 30px;
+    margin-left: 20px;
+    
+}
+.service h3{
+    color: #9a1213;
+    font-style: italic;
+}
+.service td{
+    border-bottom: 1px solid #9a1213    ;
+    padding-top: 5px;
+    width: 300px;
+}
+.contact{
+    background-color: #9a1213;
+    color: white;
+    text-align: center;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border: double 5px #f2f1f1;
+}
+footer h3{
+    color: #9a1213;
+    text-align: center;
+    font-style: italic;
+
+}
+.modal-header, .modal-footer{
+    background-color: #f2f1f1;
+}
+.modal-body td{
+    background-color: transparent;
+    border-bottom: 1px solid silver;
+    padding: 3px;
+  
+
+}
+.modal-body input, .modal-body select{
+    border-style: none;
+    margin: 7px;
+    width: 200px;
+}
+.modal-title{
+    color: #9a1213;
+    /* declartion de l'animation */
+    animation-name: at;
+    animation-duration: 3s;
+    /* animation-iteration-count: infinite;
+    animation-direction: alternate; */
+
+}
+@keyframes at{
+    from{
+        margin-left: 60%;
+        color: #f2f1f1;
+    }to{
+        margin-left: 0%;
+        color: #9a1213;
+    }
+}

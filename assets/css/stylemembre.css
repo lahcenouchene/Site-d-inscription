@@ -1,0 +1,23 @@
+h1{
+    text-align: right;
+}
+.caros{
+    padding: 15px;
+    border-left: solid 3px#9a1213;
+    text-align: justify;
+    width: 80%;
+}
+.cours{
+    background-image: url("../../images/car1.jpg");
+    background-size: cover;
+    padding: 40px;
+    background-attachment: fixed;
+}
+.cours a{
+    
+    color: #9a1213;
+    text-shadow: 1px 1px 1px grey;
+    text-decoration: none;
+    
+    
+}
